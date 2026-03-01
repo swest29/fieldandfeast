@@ -40,20 +40,26 @@ a {
 
 /* GLOBAL STYLES (mobile first/small) */
 body {
-    font-family: var(--midnight-blue);
-    color: var(--soft-white);
-    text-align: center;
-    padding: 3rem 1.5rem;
-}
+    font-family: var(--font-main);
+    background-color: var(--linen);
+    color: var(--dark-charcoal);
+    line-height: 1.6;
+  }
 
 header img {
     width: 100px;
     margin: 0 auto 1.5rem;
 }
 
+header {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+    padding: 3rem 1.5rem;
+  }
+
 header h1 {
     font-size: 2.5rem;
-    font-weight: 600;
     margin-bottom: 0.5rem;
 }
 
@@ -70,3 +76,4 @@ nav {
     font-weight: 600;
     color: var(--midnight-blue)
 }
+
