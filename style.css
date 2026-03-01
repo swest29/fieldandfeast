@@ -27,5 +27,26 @@ a {
 }
 
 /* ROOT VARIABLES */
+:root {
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
 
+    --font-main: 'Playfair Display', serif;
+}
 
+/* GLOBAL STYLES (mobile first/small) */
+body {
+    font-family: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+
+header img {
+    width: 100px;
+    margin: 0 auto 1.5rem;
+}
