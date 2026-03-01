@@ -90,6 +90,10 @@ h2 {
     margin-top: 0.5rem;
 }
 
+.gallery-grid {
+    margin-bottom: 2rem;
+  }
+  
 .gallery-item {
     background-color: var(--soft-white);
     margin-bottom: 1.5rem;
@@ -100,3 +104,19 @@ h2 {
     text-align: center;
     margin-top: 0.5rem;
   }
+
+footer {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+/* MEDIA QUERY (medium) */
+@media (min-width: 768px) {
+
+    .offerings-container {
+        display: flex;
+        gap: 1rem;
+    }
+}
