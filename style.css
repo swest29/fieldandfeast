@@ -83,3 +83,20 @@ h2 {
     color: var(--midnight-blue);
     margin-bottom: 1rem;
 }
+
+.card ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.gallery-item {
+    background-color: var(--soft-white);
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.gallery-item p {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
