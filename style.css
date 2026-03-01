@@ -1,5 +1,9 @@
 /* CSS BY Sarina */
 
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* CSS RESET */
 *,
 *::before
 *::after {
@@ -7,3 +11,21 @@
     margin: 0;
     padding: 0;
 }
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ROOT VARIABLES */
+
+
