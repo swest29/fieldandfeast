@@ -120,3 +120,37 @@ footer {
         gap: 1rem;
     }
 }
+
+.card {
+    flex: 1;
+}
+
+  .gallery-grid {
+    display: flex;
+    gap: 1rem;
+}
+
+  .gallery-item {
+    flex: 1;
+}
+
+/* MEDIA QUERY (large) */
+@media (min-width: 1024px) {
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        padding: 3rem;
+    }
+}
+
+/* MEDIA QUERY (xl) */
+@media (min-width: 1280px) {
+
+    body{
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+}
