@@ -94,31 +94,23 @@ h2 {
     margin-bottom: 2rem;
   }
   
-.gallery-item {
+  .gallery-item {
     background-color: var(--soft-white);
     margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+  
+  .gallery-item:hover {
+    transform: translateY(-4px);
 }
 
 .gallery-item p {
     text-align: center;
     margin-top: 0.5rem;
 }
-
-  .gallery-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
-}
-
-.gallery img {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-  }
-
-  .gallery a:hover {
-    background-color: var(--midnight-blue);
-  }
 
 footer {
     background-color: var(--midnight-blue);
